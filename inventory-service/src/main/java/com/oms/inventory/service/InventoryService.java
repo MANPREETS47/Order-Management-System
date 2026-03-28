@@ -14,7 +14,8 @@ public class InventoryService {
     private InventoryProducer inventoryProducer;
 
     public void processOrder(PaymentSuccessEvent event) {
-        System.out.println("Inventory service processing order: " + event.getOrderId());
+        System.out.println("Inventory service processing order: " + event.getOrderId() + " for user: " + event.getUserEmail());
         inventoryProducer.sendMessage(event);
     }
+
 }

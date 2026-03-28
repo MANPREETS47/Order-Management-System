@@ -9,4 +9,6 @@ public class PaymentSuccessEvent extends BaseEvent {
     private String orderId;
     private String paymentId;
     private String status;
+    private String userEmail;
 }
+

@@ -21,8 +21,10 @@ public class PaymentService {
         paymentSuccessEvent.setOrderId(event.getOrderId());
         paymentSuccessEvent.setPaymentId(UUID.randomUUID().toString());
         paymentSuccessEvent.setStatus("SUCCESS");
+        paymentSuccessEvent.setUserEmail(event.getUserEmail());
 
         paymentProducer.sendMessage(paymentSuccessEvent);
+
     }
 }
 
