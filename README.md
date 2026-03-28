@@ -17,8 +17,10 @@ The system follows a reactive, asynchronous flow powered by **Apache Kafka**, en
 graph LR
     A[Order Service] -- "Order Created" --> B(Kafka: order-topic)
     B --> C[Payment Service]
+    C -- "Check/Mark" --> R[(Redis)]
     C -- "Payment Success" --> D(Kafka: payment-topic)
     D --> E[Inventory Service]
+    E -- "Check/Mark" --> R
     E -- "Inventory Verified" --> F(Kafka: inventory-topic)
     F --> G[Notification Service]
     G -- "SMTP" --> H[User Email]
@@ -26,10 +28,10 @@ graph LR
 
 ### 📦 Services Breakdown
 -   **Order Service:** Orchestrates the incoming customer requests and initiates the lifecycle.
--   **Payment Service:** Handles transaction processing and status validation.
--   **Inventory Service:** Manages stock levels and ensures order fulfillment capability.
+-   **Payment Service:** **Idempotent** consumer that handles transaction processing via Redis.
+-   **Inventory Service:** **Idempotent** stock management that ensures atomic fulfillment.
 -   **Notification Service:** Real-time email delivery system using JavaMailSender with SMTP integration.
--   **Common Lib:** A shared library containing cross-cutting event concerns and DTOs.
+-   **Common Lib:** Shared library for events, DTOs, and the **Idempotency Engine**.
 
 ---
 
@@ -37,10 +39,20 @@ graph LR
 
 -   **Backend:** Java 17, Spring Boot 3.2.0
 -   **Messaging:** Apache Kafka (KRaft Mode)
+-   **Caching/Idempotency:** Redis 7.0
 -   **Build Tool:** Gradle 8.5 (Multi-Project Build)
 -   **Containerization:** Docker & Docker Compose
 -   **Observability:** Redpanda Console (Kafka UI)
 -   **Security:** Environment-based secret management (`.env`)
+
+---
+
+## 🔥 Key Features
+-   **Event-Driven & Reactive:** Asynchronous communication for massive scalability.
+-   **Redis Idempotency:** Custom-built `IdempotencyService` to ensure exactly-once processing across service boundaries.
+-   **SMTP Notifications:** Automated real-world email confirmations for end-users.
+-   **Self-Healing:** Built-in Kafka and Redis retries for high availability.
+-   **Infrastructure-as-Code:** One-click deployment with Docker Compose.
 
 ---
 
