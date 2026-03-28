@@ -1,0 +1,10 @@
+.gradle
+build
+*/build
+!*/build/libs/*.jar
+.idea
+.vscode
+.git
+docker-compose.yml
+Dockerfile
+.env
