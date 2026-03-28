@@ -1,0 +1,51 @@
+﻿Calculating task graph as configuration cache cannot be reused because system property 'stderr.encoding' has changed.
+> Task :common-lib:processResources NO-SOURCE
+> Task :order-service:processResources UP-TO-DATE
+> Task :common-lib:compileJava UP-TO-DATE
+> Task :common-lib:classes UP-TO-DATE
+> Task :common-lib:jar UP-TO-DATE
+
+> Task :order-service:compileJava
+..\gradlew : C:\Users\HP\OneDrive\Desktop\OMS\order-serv
+ice\src\main\java\com\oms\order\kafka\producer.java:12: 
+error: variable kafkaTemplate not initialized in the 
+default constructor
+At line:1 char:1
++ ..\gradlew classes > temp_build.log 2>&1
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (C:\Users\H 
+   P\One...ult constructor:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+    private final KafkaTemplate<String, Object> 
+kafkaTemplate;
+                                                ^
+1 error
+
+> Task :order-service:compileJava FAILED
+
+[Incubating] Problems report is available at: file:///C:/Users/HP/OneDrive/Desktop/OMS/build/reports/problems/problems-report.html
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':order-service:compileJava'.
+> Compilation failed; see the compiler output below.
+  C:\Users\HP\OneDrive\Desktop\OMS\order-service\src\mai
+n\java\com\oms\order\kafka\producer.java:12: error: 
+variable kafkaTemplate not initialized in the default 
+constructor
+      private final KafkaTemplate<String, Object> 
+kafkaTemplate;
+                                                  ^
+  1 error
+
+* Try:
+> Check your code and dependencies to fix the 
+compilation error(s)
+> Run with --scan to get full insights from a Build 
+Scan (powered by Develocity).
+
+BUILD FAILED in 5s
+4 actionable tasks: 1 executed, 3 up-to-date
+Configuration cache entry stored.

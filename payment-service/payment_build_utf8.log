@@ -1,0 +1,246 @@
+﻿Initialized native services in: C:\Users\HP\.gradle\native
+Initialized jansi services in: C:\Users\HP\.gradle\native
+Found daemon DaemonInfo{pid=24908, address=[f0f811ca-7ccc-4538-9d6f-6247a5f161fe port:63565, addresses:[/127.0.0.1]], state=Idle, lastBusy=1774632160023, context=DefaultDaemonContext[uid=635884b4-d2ec-44d8-b0df-02f958a89a95,javaHome=C:\Users\HP\.antigravity\extensions\redhat.java-1.52.0-win32-x64\jre\21.0.9-win32-x86_64,javaVersion=21,javaVendor=Eclipse Adoptium,daemonRegistryDir=C:\Users\HP\.gradle\daemon,pid=24908,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,nativeServicesMode=ENABLED,daemonOpts=-XX:MaxMetaspaceSize=384m,-XX:+HeapDumpOnOutOfMemoryError,-Xms256m,-Xmx512m,-Dfile.encoding=UTF-8,-Duser.country=IN,-Duser.language=en,-Duser.variant]} however its context does not match the desired criteria.
+JVM is incompatible.
+Wanted: DaemonRequestContext{jvmCriteria=C:\Program Files\Java\jdk-25 (no Daemon JVM specified, using current Java home), daemonOpts=[-XX:MaxMetaspaceSize=384m, -XX:+HeapDumpOnOutOfMemoryError, -Xms256m, -Xmx512m, -Dfile.encoding=UTF-8, -Duser.country=IN, -Duser.language=en, -Duser.variant], applyInstrumentationAgent=true, nativeServicesMode=ENABLED, priority=NORMAL}
+Actual: DefaultDaemonContext[uid=635884b4-d2ec-44d8-b0df-02f958a89a95,javaHome=C:\Users\HP\.antigravity\extensions\redhat.java-1.52.0-win32-x64\jre\21.0.9-win32-x86_64,javaVersion=21,javaVendor=Eclipse Adoptium,daemonRegistryDir=C:\Users\HP\.gradle\daemon,pid=24908,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,nativeServicesMode=ENABLED,daemonOpts=-XX:MaxMetaspaceSize=384m,-XX:+HeapDumpOnOutOfMemoryError,-Xms256m,-Xmx512m,-Dfile.encoding=UTF-8,-Duser.country=IN,-Duser.language=en,-Duser.variant]
+
+  Looking for a different daemon...
+Found daemon DaemonInfo{pid=5388, address=[42f0b9f6-8231-4e9d-b878-c8331245d3ad port:58779, addresses:[/127.0.0.1]], state=Idle, lastBusy=1774675222060, context=DefaultDaemonContext[uid=118de113-46ec-4393-b458-d638605ba002,javaHome=C:\Users\HP\.vscode\extensions\redhat.java-1.53.0-win32-x64\jre\21.0.10-win32-x86_64,javaVersion=21,javaVendor=Eclipse Adoptium,daemonRegistryDir=C:\Users\HP\.gradle\daemon,pid=5388,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,nativeServicesMode=ENABLED,daemonOpts=-XX:MaxMetaspaceSize=384m,-XX:+HeapDumpOnOutOfMemoryError,-Xms256m,-Xmx512m,-Dfile.encoding=UTF-8,-Duser.country=IN,-Duser.language=en,-Duser.variant]} however its context does not match the desired criteria.
+JVM is incompatible.
+Wanted: DaemonRequestContext{jvmCriteria=C:\Program Files\Java\jdk-25 (no Daemon JVM specified, using current Java home), daemonOpts=[-XX:MaxMetaspaceSize=384m, -XX:+HeapDumpOnOutOfMemoryError, -Xms256m, -Xmx512m, -Dfile.encoding=UTF-8, -Duser.country=IN, -Duser.language=en, -Duser.variant], applyInstrumentationAgent=true, nativeServicesMode=ENABLED, priority=NORMAL}
+Actual: DefaultDaemonContext[uid=118de113-46ec-4393-b458-d638605ba002,javaHome=C:\Users\HP\.vscode\extensions\redhat.java-1.53.0-win32-x64\jre\21.0.10-win32-x86_64,javaVersion=21,javaVendor=Eclipse Adoptium,daemonRegistryDir=C:\Users\HP\.gradle\daemon,pid=5388,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,nativeServicesMode=ENABLED,daemonOpts=-XX:MaxMetaspaceSize=384m,-XX:+HeapDumpOnOutOfMemoryError,-Xms256m,-Xmx512m,-Dfile.encoding=UTF-8,-Duser.country=IN,-Duser.language=en,-Duser.variant]
+
+  Looking for a different daemon...
+Found daemon DaemonInfo{pid=4636, address=[211acbba-0f23-4c43-9541-02d0ea8eb11e port:62383, addresses:[/127.0.0.1]], state=Idle, lastBusy=1774677236812, context=DefaultDaemonContext[uid=2f4ed1bb-fd23-4142-a20a-551a619ea475,javaHome=C:\Users\HP\.antigravity\extensions\redhat.java-1.53.0-win32-x64\jre\21.0.10-win32-x86_64,javaVersion=21,javaVendor=Eclipse Adoptium,daemonRegistryDir=C:\Users\HP\.gradle\daemon,pid=4636,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,nativeServicesMode=ENABLED,daemonOpts=-XX:MaxMetaspaceSize=384m,-XX:+HeapDumpOnOutOfMemoryError,-Xms256m,-Xmx512m,-Dfile.encoding=UTF-8,-Duser.country=IN,-Duser.language=en,-Duser.variant]} however its context does not match the desired criteria.
+JVM is incompatible.
+Wanted: DaemonRequestContext{jvmCriteria=C:\Program Files\Java\jdk-25 (no Daemon JVM specified, using current Java home), daemonOpts=[-XX:MaxMetaspaceSize=384m, -XX:+HeapDumpOnOutOfMemoryError, -Xms256m, -Xmx512m, -Dfile.encoding=UTF-8, -Duser.country=IN, -Duser.language=en, -Duser.variant], applyInstrumentationAgent=true, nativeServicesMode=ENABLED, priority=NORMAL}
+Actual: DefaultDaemonContext[uid=2f4ed1bb-fd23-4142-a20a-551a619ea475,javaHome=C:\Users\HP\.antigravity\extensions\redhat.java-1.53.0-win32-x64\jre\21.0.10-win32-x86_64,javaVersion=21,javaVendor=Eclipse Adoptium,daemonRegistryDir=C:\Users\HP\.gradle\daemon,pid=4636,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,nativeServicesMode=ENABLED,daemonOpts=-XX:MaxMetaspaceSize=384m,-XX:+HeapDumpOnOutOfMemoryError,-Xms256m,-Xmx512m,-Dfile.encoding=UTF-8,-Duser.country=IN,-Duser.language=en,-Duser.variant]
+
+  Looking for a different daemon...
+The client will now receive all logging from the daemon (pid: 18660). The daemon log file: C:\Users\HP\.gradle\daemon\9.4.0\daemon-18660.out.log
+Starting 5th build in daemon [uptime: 1 mins 16.311 secs, performance: 100%, GC rate: 0.00/s, heap usage: 3% of 512 MiB, non-heap usage: 17% of 384 MiB]
+Using 16 worker leases.
+Operational build model parameters: {cachingModelBuilding=false, configurationCache=true, configurationCacheDisabledReason=null, configurationCacheParallelLoad=true, configurationCacheParallelStore=false, configureOnDemand=false, invalidateCoupledProjects=false, isolatedProjects=false, modelAsProjectDependency=false, modelBuilding=false, parallelModelBuilding=false, parallelProjectConfiguration=false, parallelProjectExecution=false, resilientModelBuilding=false}
+Encryption key source: default Gradle keystore (pkcs12)
+Now considering [C:\Users\HP\OneDrive\Desktop\OMS] as hierarchies to watch
+Calculating task graph as configuration cache cannot be reused because system property 'stderr.encoding' has changed.
+Now considering [C:\Users\HP\OneDrive\Desktop\OMS] as hierarchies to watch
+Watching the file system is configured to be enabled if available
+File system watching is active
+Starting Build
+Resolved plugin [id: 'org.gradle.toolchains.foojay-resolver-convention', version: '1.0.0']
+Settings evaluated using settings file 'C:\Users\HP\OneDrive\Desktop\OMS\settings.gradle'.
+Projects loaded. Root project using build file 'C:\Users\HP\OneDrive\Desktop\OMS\build.gradle'.
+Included projects: [root project 'OMS', project ':common-lib', project ':inventory-service', project ':notification-service', project ':order-service', project ':payment-service']
+
+> Configure project :
+Evaluating root project 'OMS' using build file 'C:\Users\HP\OneDrive\Desktop\OMS\build.gradle'.
+
+> Configure project :common-lib
+Evaluating project ':common-lib' using build file 'C:\Users\HP\OneDrive\Desktop\OMS\common-lib\build.gradle'.
+Resolved plugin [id: 'java']
+Resolved plugin [id: 'org.springframework.boot', version: '3.2.0']
+Resolved plugin [id: 'io.spring.dependency-management', version: '1.1.7']
+Applying dependency management to configuration 'annotationProcessor' in project 'common-lib'
+Applying dependency management to configuration 'apiElements' in project 'common-lib'
+Applying dependency management to configuration 'archives' in project 'common-lib'
+Applying dependency management to configuration 'bootArchives' in project 'common-lib'
+Applying dependency management to configuration 'compileClasspath' in project 'common-lib'
+Applying dependency management to configuration 'compileOnly' in project 'common-lib'
+Applying dependency management to configuration 'default' in project 'common-lib'
+Applying dependency management to configuration 'developmentOnly' in project 'common-lib'
+Applying dependency management to configuration 'implementation' in project 'common-lib'
+Applying dependency management to configuration 'mainSourceElements' in project 'common-lib'
+Applying dependency management to configuration 'productionRuntimeClasspath' in project 'common-lib'
+Applying dependency management to configuration 'runtimeClasspath' in project 'common-lib'
+Applying dependency management to configuration 'runtimeElements' in project 'common-lib'
+Applying dependency management to configuration 'runtimeOnly' in project 'common-lib'
+Applying dependency management to configuration 'testAndDevelopmentOnly' in project 'common-lib'
+Applying dependency management to configuration 'testAnnotationProcessor' in project 'common-lib'
+Applying dependency management to configuration 'testCompileClasspath' in project 'common-lib'
+Applying dependency management to configuration 'testCompileOnly' in project 'common-lib'
+Applying dependency management to configuration 'testImplementation' in project 'common-lib'
+Applying dependency management to configuration 'testResultsElementsForTest' in project 'common-lib'
+Applying dependency management to configuration 'testRuntimeClasspath' in project 'common-lib'
+Applying dependency management to configuration 'testRuntimeOnly' in project 'common-lib'
+
+> Configure project :inventory-service
+Evaluating project ':inventory-service' using build file 'C:\Users\HP\OneDrive\Desktop\OMS\inventory-service\build.gradle'.
+Resolved plugin [id: 'java']
+Resolved plugin [id: 'org.springframework.boot', version: '3.2.0']
+Resolved plugin [id: 'io.spring.dependency-management', version: '1.1.7']
+Applying dependency management to configuration 'annotationProcessor' in project 'inventory-service'
+Applying dependency management to configuration 'apiElements' in project 'inventory-service'
+Applying dependency management to configuration 'archives' in project 'inventory-service'
+Applying dependency management to configuration 'bootArchives' in project 'inventory-service'
+Applying dependency management to configuration 'compileClasspath' in project 'inventory-service'
+Applying dependency management to configuration 'compileOnly' in project 'inventory-service'
+Applying dependency management to configuration 'default' in project 'inventory-service'
+Applying dependency management to configuration 'developmentOnly' in project 'inventory-service'
+Applying dependency management to configuration 'implementation' in project 'inventory-service'
+Applying dependency management to configuration 'mainSourceElements' in project 'inventory-service'
+Applying dependency management to configuration 'productionRuntimeClasspath' in project 'inventory-service'
+Applying dependency management to configuration 'runtimeClasspath' in project 'inventory-service'
+Applying dependency management to configuration 'runtimeElements' in project 'inventory-service'
+Applying dependency management to configuration 'runtimeOnly' in project 'inventory-service'
+Applying dependency management to configuration 'testAndDevelopmentOnly' in project 'inventory-service'
+Applying dependency management to configuration 'testAnnotationProcessor' in project 'inventory-service'
+Applying dependency management to configuration 'testCompileClasspath' in project 'inventory-service'
+Applying dependency management to configuration 'testCompileOnly' in project 'inventory-service'
+Applying dependency management to configuration 'testImplementation' in project 'inventory-service'
+Applying dependency management to configuration 'testResultsElementsForTest' in project 'inventory-service'
+Applying dependency management to configuration 'testRuntimeClasspath' in project 'inventory-service'
+Applying dependency management to configuration 'testRuntimeOnly' in project 'inventory-service'
+
+> Configure project :notification-service
+Evaluating project ':notification-service' using build file 'C:\Users\HP\OneDrive\Desktop\OMS\notification-service\build.gradle'.
+Resolved plugin [id: 'java']
+Resolved plugin [id: 'org.springframework.boot', version: '3.2.0']
+Resolved plugin [id: 'io.spring.dependency-management', version: '1.1.7']
+Applying dependency management to configuration 'annotationProcessor' in project 'notification-service'
+Applying dependency management to configuration 'apiElements' in project 'notification-service'
+Applying dependency management to configuration 'archives' in project 'notification-service'
+Applying dependency management to configuration 'bootArchives' in project 'notification-service'
+Applying dependency management to configuration 'compileClasspath' in project 'notification-service'
+Applying dependency management to configuration 'compileOnly' in project 'notification-service'
+Applying dependency management to configuration 'default' in project 'notification-service'
+Applying dependency management to configuration 'developmentOnly' in project 'notification-service'
+Applying dependency management to configuration 'implementation' in project 'notification-service'
+Applying dependency management to configuration 'mainSourceElements' in project 'notification-service'
+Applying dependency management to configuration 'productionRuntimeClasspath' in project 'notification-service'
+Applying dependency management to configuration 'runtimeClasspath' in project 'notification-service'
+Applying dependency management to configuration 'runtimeElements' in project 'notification-service'
+Applying dependency management to configuration 'runtimeOnly' in project 'notification-service'
+Applying dependency management to configuration 'testAndDevelopmentOnly' in project 'notification-service'
+Applying dependency management to configuration 'testAnnotationProcessor' in project 'notification-service'
+Applying dependency management to configuration 'testCompileClasspath' in project 'notification-service'
+Applying dependency management to configuration 'testCompileOnly' in project 'notification-service'
+Applying dependency management to configuration 'testImplementation' in project 'notification-service'
+Applying dependency management to configuration 'testResultsElementsForTest' in project 'notification-service'
+Applying dependency management to configuration 'testRuntimeClasspath' in project 'notification-service'
+Applying dependency management to configuration 'testRuntimeOnly' in project 'notification-service'
+
+> Configure project :order-service
+Evaluating project ':order-service' using build file 'C:\Users\HP\OneDrive\Desktop\OMS\order-service\build.gradle'.
+Resolved plugin [id: 'java']
+Resolved plugin [id: 'org.springframework.boot', version: '3.2.0']
+Resolved plugin [id: 'io.spring.dependency-management', version: '1.1.7']
+Applying dependency management to configuration 'annotationProcessor' in project 'order-service'
+Applying dependency management to configuration 'apiElements' in project 'order-service'
+Applying dependency management to configuration 'archives' in project 'order-service'
+Applying dependency management to configuration 'bootArchives' in project 'order-service'
+Applying dependency management to configuration 'compileClasspath' in project 'order-service'
+Applying dependency management to configuration 'compileOnly' in project 'order-service'
+Applying dependency management to configuration 'default' in project 'order-service'
+Applying dependency management to configuration 'developmentOnly' in project 'order-service'
+Applying dependency management to configuration 'implementation' in project 'order-service'
+Applying dependency management to configuration 'mainSourceElements' in project 'order-service'
+Applying dependency management to configuration 'productionRuntimeClasspath' in project 'order-service'
+Applying dependency management to configuration 'runtimeClasspath' in project 'order-service'
+Applying dependency management to configuration 'runtimeElements' in project 'order-service'
+Applying dependency management to configuration 'runtimeOnly' in project 'order-service'
+Applying dependency management to configuration 'testAndDevelopmentOnly' in project 'order-service'
+Applying dependency management to configuration 'testAnnotationProcessor' in project 'order-service'
+Applying dependency management to configuration 'testCompileClasspath' in project 'order-service'
+Applying dependency management to configuration 'testCompileOnly' in project 'order-service'
+Applying dependency management to configuration 'testImplementation' in project 'order-service'
+Applying dependency management to configuration 'testResultsElementsForTest' in project 'order-service'
+Applying dependency management to configuration 'testRuntimeClasspath' in project 'order-service'
+Applying dependency management to configuration 'testRuntimeOnly' in project 'order-service'
+
+> Configure project :payment-service
+Evaluating project ':payment-service' using build file 'C:\Users\HP\OneDrive\Desktop\OMS\payment-service\build.gradle'.
+Resolved plugin [id: 'java']
+Resolved plugin [id: 'org.springframework.boot', version: '3.2.0']
+Resolved plugin [id: 'io.spring.dependency-management', version: '1.1.7']
+Applying dependency management to configuration 'annotationProcessor' in project 'payment-service'
+Applying dependency management to configuration 'apiElements' in project 'payment-service'
+Applying dependency management to configuration 'archives' in project 'payment-service'
+Applying dependency management to configuration 'bootArchives' in project 'payment-service'
+Applying dependency management to configuration 'compileClasspath' in project 'payment-service'
+Applying dependency management to configuration 'compileOnly' in project 'payment-service'
+Applying dependency management to configuration 'default' in project 'payment-service'
+Applying dependency management to configuration 'developmentOnly' in project 'payment-service'
+Applying dependency management to configuration 'implementation' in project 'payment-service'
+Applying dependency management to configuration 'mainSourceElements' in project 'payment-service'
+Applying dependency management to configuration 'productionRuntimeClasspath' in project 'payment-service'
+Applying dependency management to configuration 'runtimeClasspath' in project 'payment-service'
+Applying dependency management to configuration 'runtimeElements' in project 'payment-service'
+Applying dependency management to configuration 'runtimeOnly' in project 'payment-service'
+Applying dependency management to configuration 'testAndDevelopmentOnly' in project 'payment-service'
+Applying dependency management to configuration 'testAnnotationProcessor' in project 'payment-service'
+Applying dependency management to configuration 'testCompileClasspath' in project 'payment-service'
+Applying dependency management to configuration 'testCompileOnly' in project 'payment-service'
+Applying dependency management to configuration 'testImplementation' in project 'payment-service'
+Applying dependency management to configuration 'testResultsElementsForTest' in project 'payment-service'
+Applying dependency management to configuration 'testRuntimeClasspath' in project 'payment-service'
+Applying dependency management to configuration 'testRuntimeOnly' in project 'payment-service'
+All projects evaluated.
+Task name matched 'classes'
+Selected primary task 'classes' from project :payment-service
+Resolving global dependency management for project 'payment-service'
+Excluding []
+Excluding []
+Excluding []
+Excluding []
+Resolving global dependency management for project 'common-lib'
+Excluding []
+Excluding []
+Tasks to be executed: [task ':common-lib:compileJava', task ':common-lib:processResources', task ':common-lib:classes', task ':common-lib:jar', task ':payment-service:compileJava', task ':payment-service:processResources', task ':payment-service:classes']
+Tasks that were excluded: []
+Ignoring listeners of task graph ready event, as this build (:) has already executed work.
+Resolve mutations for :common-lib:compileJava (Thread[#306,Execution worker,5,main]) started.
+Resolve mutations for :common-lib:processResources (Thread[#309,Execution worker Thread 4,5,main]) started.
+Resolve mutations for :payment-service:processResources (Thread[#307,Execution worker Thread 2,5,main]) started.
+:common-lib:processResources (Thread[#309,Execution worker Thread 4,5,main]) started.
+:payment-service:processResources (Thread[#307,Execution worker Thread 2,5,main]) started.
+:common-lib:compileJava (Thread[#315,Execution worker Thread 10,5,main]) started.
+
+> Task :common-lib:processResources NO-SOURCE
+Skipping task ':common-lib:processResources' as it has no source files and no previous output files.
+
+> Task :payment-service:processResources FAILED
+
+> Task :common-lib:compileJava UP-TO-DATE
+Caching disabled for task ':common-lib:compileJava' because:
+  Build cache is disabled
+Skipping task ':common-lib:compileJava' as it is up-to-date.
+
+See the complete report at file:///C:/Users/HP/OneDrive/Desktop/OMS/build/reports/configuration-cache/7du9wm3drl63fs6vdnlciq1gf/de24uso5cptrng2ulnv0ct6hu/configuration-cache-report.html
+..\gradlew : 
+At line:1 char:1
++ ..\gradlew classes --info > payment_build.log 2>&1
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:String) [ 
+   ], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task 
+':payment-service:processResources'.
+> Cannot access input property 'rootSpec$1' of task 
+':payment-service:processResources'. Accessing 
+unreadable inputs or outputs is not supported. Declare 
+the task as untracked by using Task.doNotTrackState(). 
+For more information, please refer to https://docs.gradl
+e.org/9.4.0/userguide/incremental_build.html#sec:disable
+-state-tracking in the Gradle documentation.
+   > java.io.IOException: Cannot snapshot C:\Users\HP\On
+eDrive\Desktop\OMS\payment-service\src\main\resources\ap
+plication.properties: not a regular file
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --debug option to get more log output.
+> Run with --scan to get full insights from a Build 
+Scan (powered by Develocity).
+> Get more help at https://help.gradle.org.
+2 actionable tasks: 1 executed, 1 up-to-date
+Watched directory hierarchies: [C:\Users\HP\OneDrive\Desktop\OMS]
+Configuration cache entry stored.
+Configuration Cache (C:\Users\HP\OneDrive\Desktop\OMS\.gradle\configuration-cache) [subdir: C:\Users\HP\OneDrive\Desktop\OMS\.gradle\configuration-cache\88aa68a9-9548-4693-8474-47bf244d348a] cleanup deleted 9 files/directories.
+
+BUILD FAILED in 1s

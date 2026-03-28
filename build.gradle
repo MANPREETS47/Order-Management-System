@@ -1,0 +1,17 @@
+allprojects {
+    group = 'com.oms'
+    version = '1.0.0'
+
+    repositories {
+        mavenCentral()
+    }
+}
+
+subprojects {
+    pluginManager.withPlugin('java') {
+        dependencies {
+            compileOnly 'org.projectlombok:lombok'
+            annotationProcessor 'org.projectlombok:lombok'
+        }
+    }
+}
