@@ -30,6 +30,14 @@ services:
     networks:
       - oms-network
 
+  redis:
+    image: redis:7-alpine
+    container_name: redis
+    ports:
+      - "6379:6379"
+    networks:
+      - oms-network
+
   order-service:
     build:
       context: .
@@ -55,8 +63,10 @@ services:
       - "8082:8082"
     environment:
       - KAFKA_SERVERS=kafka:9092
+      - REDIS_HOST=redis
     depends_on:
       - kafka
+      - redis
     networks:
       - oms-network
 
@@ -70,10 +80,13 @@ services:
       - "8083:8083"
     environment:
       - KAFKA_SERVERS=kafka:9092
+      - REDIS_HOST=redis
     depends_on:
       - kafka
+      - redis
     networks:
       - oms-network
+
 
   notification-service:
     build:
