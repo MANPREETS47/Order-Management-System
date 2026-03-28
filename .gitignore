@@ -8,3 +8,8 @@ build
 .kotlin
 
 .env
+
+# Temporary build and run logs
+/*.log
+/*.txt
+
