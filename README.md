@@ -88,7 +88,7 @@ curl -X POST http://localhost:8081/users/orders \
 
 ## 📊 Monitoring & Debugging
 
--   **Kafka UI:** Access `http://localhost:8080` to visualize topics, consumers, and message payloads in real-time.
+
 -   **Service Ports:**
     -   Order Service: `8081`
     -   Payment Service: `8082`
